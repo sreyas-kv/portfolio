@@ -1,0 +1,69 @@
+h1 {
+    padding-left: 50px;
+    font-size: 40pt;
+}
+
+.who-am-i {
+    margin-left: 100px;
+    box-sizing: content-box;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+
+/* 
+.contact {
+    box-sizing: border-box;
+    border: solid green 5px;
+    margin: 10%;
+} */
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    align-content: center
+}
+
+.full-stack {
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    margin-bottom: 10px;
+    font-size: 20pt;
+    box-sizing: border-box;
+    border: solid grey 1px;
+    background: #d7dae0;
+}
+
+.full-stack:hover {
+    background-color: blueviolet;
+}
+
+.qa {
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    margin-bottom: 10px;
+    font-size: 20pt;
+    box-sizing: border-box;
+    border: solid grey 1px;
+    background: #d7dae0;
+}
+
+.qa:hover {
+    background-color: blueviolet;
+}
+
+.green {
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    margin-bottom: 10px;
+    font-size: 20pt;
+    box-sizing: border-box;
+    border: solid grey 1px;
+    background: #d7dae0;
+}
+
+.green:hover {
+    background-color: blueviolet;
+}
