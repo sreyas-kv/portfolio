@@ -3,42 +3,117 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sreyas Portfolio</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sreyas fullstack developer</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <main role="main">
-        <div class="container-main">
-            <h1> SREYAS KARAYI VENGILAT</h1>
-            <!-- <div class="contact">
-                <p>Contact</p>
-            </div> -->
-            <div class="who-am-i">
-                <div class="full-stack">
-                    <p>Full Stack developer</p>
+    <nav role="navbar" class="navbar navbar-default navbar-fixed-top">
+        <div class="nav-container">
+            <div class="navbar-header">
+                <div class="name-container">
+                    <span class="name">SREYAS</span>
                 </div>
-                <div class="qa">
-                    <p>Quality Engineer</p>
+                <div class="links">
+                    <span class="jumper"><a href='#about' class="header-span">Bio </a></span>
+                    <span class="jumper"><a href='#projects' class="header-span">Portfolio </a></span>
                 </div>
-                <div class="green">
-                    <p>Green Thumb</p>
+                <div class="logo">
+                    <a target="_blank" href="https://www.linkedin.com/in/sreyaskv"><img src="images/linkedin.png" class="linkedin"></a>
+                    <a target="_blank" href="https://github.com/sreyas-kv"><img src="images/GitHub.png" class="github"></a>
                 </div>
-
-
-
-
-                <!-- <ul class="list-tools">
-                    <li class="full-staack">Full Stack developer</li>
-                    <li class="qa">Quality engineer</li>
-                    <li class="green">Green thumb</li>
-                </ul> -->
             </div>
         </div>
+    </nav>
+    <main role="main">
+        <div class="container-div">
+            <div class="hello-div" id="hello">
+                <div class="hello-break">
+                    <p class="break1">HE</p>
+                    <p class="break2">LLO<span class="dot">.</span></p>
+
+                </div>
+
+                <p class="hello-p">My name is Sreyas!</p>
+            </div>
+            <div class="parent">
+                <div class="about-div" id="about">
+                    <span class="about-span">About Me</span>
+                    <div class="about-container">
+                        <div class="bio">
+                            <p class="little-more">
+                                👋 I'm Sreyas Karayi Vengilat, a Front End Developer from Phoenix, Arizona. I love to learn and discover all things JavaScript,
+                                HTML, and CSS.
+                            </p>
+                            <p class="background">I like to talk about myself 😝</p>
+                            <p class="little-more">
+                                How did I become interested in technology and programming? Since my childhood I was always interested in computer and computer
+                                games. I always wondered how computers worked and how to create my own game. I started my
+                                career as QA engineer and moved to the US to do my masters. What did I study in college?
+                                I have a diploma in Information Technology, BSC in Computer Science and M.S in Information
+                                Systems Management and did a coding bootcamp.
+
+                            </p>
+                            <p class="little-more">
+                                What are I working on now? I am a front-end developer at Amex. I am currently working with React. What do I do during my
+                                free time? I like go to a nice coffee shop and have a nice sip of coffee. I have a greenthumb
+                                and I mentor at Bold Ideas as a volunteer. What technologies I am familar with? I play with
+                                HTML, CSS, JQuery, JavaScript, React, NodeJS, Mongo, Java. 👨🏻‍💻
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-div" id="projects">
+                <span class="project-span">PROJECTS</span>
+                <div class="project-list-div">
+                    <div class="project-image">
+                        <img class="project-img" src="./images/RecipeBook.png">
+                        <p class="project-details">Ricetta is a simple to use recipe app that lets users store and access
+                            recipes. To use this app the user needs to signup with email. On successful signup the user will
+                            be navigated to a sample list of recipes. The user can create new recipes and add it to the list.
+                        </p>
+                        <p class="project-details">This app is build with React, Mlab.</p>
+                        <a class="linkColor gitlink" target="_blank" href="https://github.com/sreyas-kv/recipe-book">Github
+                            | </a>
+                        <a class="linkColor" target="_blank" href=" https://ricetta-recipebook.herokuapp.com">Demo</a>
+                    </div>
+                    <div class="project-image">
+                        <img class="project-img" src="./images/Pairprogramming.png">
+                        <p class="project-details">The Pairprogramming web app aims to connect programmers based on Github
+                            profiles.
+                        </p>
+                        <p class="project-details">The app is implemented in Javascript using NodJS Express framework. The
+                            frontend is designed in HTML5 and vanilla CSS with storage in Mongoose and Mlab.</p>
+                        <a class="linkColor" target="_blank" href="https://github.com/sreyas-kv/pairprogramming-3">Github
+                            | </a>
+                        <a class="linkColor" target="_blank" href=" https://pairprograming-3.herokuapp.com">Demo</a>
+                    </div>
+                    <div class="project-image">
+                        <img class="project-img" src="./images/Know your food.png">
+                        <p class="project-details">Know your food! Web app allows to check for the toxins in the branded
+                            food products.How to check Enter the complete food name in the search box and hit the check it
+                            button The results will show the priduct name and the ingridents and also will show the toxin
+                            content in the food product.</p>
+                        <p class="project-details">This app is build with HTML, CSS, JQuery, JavaScript</p>
+                        <a class="linkColor" target="_blank" href="https://github.com/sreyas-kv/KnowYourFood">Github | </a>
+                        <a class="linkColor" target="_blank" href=" https://sreyas-kv.github.io/KnowYourFood">Demo</a>
+                    </div>
+                </div>
+            </div>
     </main>
-    <script src="/js/jsindex.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
+<footer id="footer">
+    <ul class="center">
+        <li><a href="#">I love receiving mail at: sreyaskarayivengilat@gmail.com</a></li>
+    </ul>
+</footer>
 
 </html>
