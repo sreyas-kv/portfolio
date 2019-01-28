@@ -46,6 +46,10 @@ html {
     color: #AEB6BF;
 }
 
+.links a:link, a:visited {
+    color: #AEB6BF;
+}
+
 .header-span {
     margin-left: 20px;
 }
