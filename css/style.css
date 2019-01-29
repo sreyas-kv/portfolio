@@ -274,7 +274,7 @@ img {
     }
     .project-list-div {
         width: 100%;
-        height: 1368px;
+        height: 1500px;
     }
     .project-details {
         width: 100%;
@@ -318,12 +318,13 @@ img {
         margin-top: 40px;
     }
     .hello-div {
-        height: 500px;
+        height: 720px;
     }
     .center {
         margin: 0;
-        padding: 0;
-        height: 10px;
+        padding: 10px;
+        /* height: 20px; */
         font-size: 8px;
     }
+
 }
