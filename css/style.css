@@ -126,7 +126,9 @@ a:visited {
 }
 
 .hello-div {
-    height: 780px;
+    /* height: 780px; */
+    height: 100vh;
+    overflow: auto;
     background: linear-gradient(90deg, #FF5851 50%, #F8F8F8 50%);
     font-family: 'Karla', sans-serif;
     color: black;
