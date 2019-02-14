@@ -236,10 +236,11 @@ img {
     display: inline-block;
     text-align: center;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .project-image a:visited, a:link {
-    color: #5F6A6A;
+    color: #2cb22c;
 }
 
 #footer {
