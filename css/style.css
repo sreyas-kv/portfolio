@@ -12,7 +12,8 @@ html {
     overflow: hidden;
     top: 0;
     width: 100%;
-    background-color: #272822;
+    /* background-color: #272822; */
+    background-color: #F8F8F8;
     z-index: 9990;
 }
 
@@ -30,24 +31,28 @@ html {
 }
 
 .name {
-    font-family: 'Rokkitt', serif;
+    /* font-family: 'Rokkitt', serif; */
+    font-family: 'Sacramento', cursive;
     font-size: 50px;
     margin-left: 20px;
     /* color: #77C22B; */
-    color: #AEB6BF;
+    /* color: #AEB6BF; */
+    color: #7a42f4;
 }
 
 .links {
     font-family: 'Rokkitt', serif;
     font-size: 30px;
     display: inline-block;
-    margin: 14px 20px 0 25%;
-    /* color: #D9C666; */
+    /* margin: 14px 20px 0 25%; */
+    margin: 14px 35px 0 35%;
     color: #AEB6BF;
+
 }
 
 .links a:link, a:visited {
-    color: #AEB6BF;
+    /* color: #AEB6BF; */
+    color: #FF5851;
 }
 
 .header-span {
@@ -85,20 +90,35 @@ a:visited {
 
 .about-div {
     height: 710px;
-    /* background: linear-gradient(90deg, #F7E494 50%, white 50%); */
     background: #EAEDED;
-    /* font-family: 'Karla', sans-serif; */
-    font-family: 'KoHo', sans-serif;
-    color: #7586E8;
-    /* font-size: 700px; */
+    /* font-family: 'KoHo', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    /* color: #7586E8; */
+    color: #FF5851;
     text-align: center;
     padding-top: 50px;
 }
 
 .about-span {
-    /* font-size: 25vw; */
     display: inline-block;
-    /* height:280px; */
+    width: 100%;
+    margin: 0 auto;
+    font-size: 100px;
+    margin-top: 0px;
+}
+
+.projects-div {
+    height: 710%;
+    color: #FF5851;
+    background: #EAEDED;
+    padding-top: 40px;
+    /* font-family: 'KoHo', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.project-span {
+    display: inline-block;
     width: 100%;
     margin: 0 auto;
     font-size: 100px;
@@ -110,14 +130,16 @@ a:visited {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    width: 1000px;
+    width: 800px;
     font-family: 'KoHo', sans-serif;
     color: #283747;
 }
 
 .little-more {
-    font-size: 22px;
-    font-family: 'KoHo', sans-serif;
+    font-size: 24px;
+    /* font-family: 'KoHo', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    line-height: 2;
 }
 
 .background {
@@ -184,24 +206,7 @@ a:visited {
     color: #566573;
 }
 
-.projects-div {
-    height: 100%;
-    /* background: linear-gradient(90deg, white 50%, #ED8381 50%); */
-    /* font-family: 'Karla', sans-serif; */
-    color: #A569BD;
-    background: #EAEDED;
-    padding-top: 40px;
-    font-family: 'KoHo', sans-serif;
-    text-align: center;
-}
 
-.project-span {
-    display: inline-block;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 100px;
-    margin-top: 0px;
-}
 
 .project-list-div {
     width: 100%;
